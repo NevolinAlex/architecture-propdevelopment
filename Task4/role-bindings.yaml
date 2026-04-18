@@ -1,0 +1,53 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: admin-binding
+subjects:
+  - kind: ServiceAccount
+    name: kuzya-devops
+    namespace: prop-development
+roleRef:
+  kind: ClusterRole
+  name: admin
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: prop-development-srv-updater-binding
+  namespace: prop-development
+subjects:
+- kind: ServiceAccount
+  name: srv-updater-user
+  namespace: prop-development
+roleRef:
+  kind: Role
+  name: srv-updater
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: prop-development-developer-binding
+  namespace: prop-development
+subjects:
+  - kind: ServiceAccount
+    name: vasya-developer
+    namespace: prop-development
+roleRef:
+  kind: Role
+  name: developer
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: security-binding
+subjects:
+- kind: ServiceAccount
+  name: kolya-ib
+  namespace: prop-development
+roleRef:
+  kind: ClusterRole
+  name: security-reader
+  apiGroup: rbac.authorization.k8s.io
