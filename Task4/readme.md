@@ -12,7 +12,8 @@
 ```
 minikube start
 kubectl create namespace prop-development
-kubectl apply -f ./users.yaml
+./create-users.sh
+kubectl apply -f ./service-accounts.yaml
 kubectl apply -f ./roles.yaml
 kubectl apply -f ./role-bindings.yaml
 ```

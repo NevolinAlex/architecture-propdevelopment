@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Page-1" id="8_3Y5mYhZRQdphrbeCXb">
-    <mxGraphModel dx="2524" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1958" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,13 +323,13 @@
         <mxCell id="Lqjv6FdfcQ--SYkThq7g-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;Партнёрские API без ограничений позволяют&lt;/span&gt;&lt;br style=&quot;font-size: 10px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;внешним пользователям изменять данные&lt;/span&gt;&lt;br style=&quot;font-size: 10px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;чужих клиентов. Нет авторизационного контроля&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;на уровне систем обработки данных&lt;/span&gt;" vertex="1">
           <mxGeometry height="75" width="225" x="1312.5" y="637.5" as="geometry" />
         </mxCell>
-        <mxCell id="Lqjv6FdfcQ--SYkThq7g-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Учетные записи и ключи доступа к системам&lt;div&gt;Данные для регистрации сделок в госорганах&lt;/div&gt;&lt;div&gt;Данные устройств умного дома (управление автоматикой)&lt;/div&gt;" vertex="1">
+        <mxCell id="Lqjv6FdfcQ--SYkThq7g-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Учетные записи и ключи/пароли доступа к системам (СУБД/личные кабинеты)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Секреты/ключи управления устройствами умного дома)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="395" x="1692.5" y="370" as="geometry" />
         </mxCell>
         <mxCell id="Lqjv6FdfcQ--SYkThq7g-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;Утечка данных&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="150" x="1815" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="Lqjv6FdfcQ--SYkThq7g-39" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;s1&quot;&gt;Компрометация управления замками/автоматикой создаёт угрозу физической безопасности жильцов.&lt;/span&gt;&lt;div&gt;Компроментация УЗ и ключей доступа к системам, создает прямую угрозу безопасности в ИТ-инфраструктуре.&lt;/div&gt;" vertex="1">
+        <mxCell id="Lqjv6FdfcQ--SYkThq7g-39" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;s1&quot;&gt;Компрометация управления замками/автоматикой создаёт угрозу физической безопасности жильцов.&lt;/span&gt;&lt;div&gt;Компроментация УЗ и ключей доступа/паролей к системам/СУБД, создает прямую угрозу безопасности в ИТ-инфраструктуре.&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="400" x="1690" y="637.5" as="geometry" />
         </mxCell>
       </root>
